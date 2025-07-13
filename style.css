@@ -122,9 +122,12 @@ label {
     transition: 0.3s ease;
 }
 
-#example {
-    font-weight: 200;
+
+#result {
+    font-weight: 400;
     display: block;
     text-align: center;
     color: #898888;
+    padding: 10px;
+    margin-bottom: 10px;
 }
