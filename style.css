@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 10px; */
+    border: 1px solid rgb(204, 204, 204);
+}
+
+.company {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+}
+
+.company-name {
+    padding: 5px 15px;
+
+}
+
+.options {
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    gap: 20px;
+
+}
+
+.options-list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.options-list li {
+    list-style: none;
+}
+
+.options-list li a {
+    text-decoration: none;
+    color: black;
+}
+
+.buttons button {
+    padding: 12px 29px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+#signup {
+    background-color: rgb(186, 226, 242);
+}
+
+#signup:hover {
+    background-color: rgb(165, 203, 217);
+    transition: 0.3s ease;
+}
+
+#login:hover {
+    background-color: #dbdada;
+    transition: 0.3s ease;
+}
+
+.frame img {
+    margin-top: 30px;
+    margin-left: 260px;
+    /* border: 1px solid black; */
+    padding: 30px;
+}
+
+.heading h2 {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.currency-details {
+    padding: 10px;
+    /* border: 1px solid black; */
+}
+
+label {
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.currency-details input {
+    margin-top: 10px;
+    width: 30%;
+    border-radius: 10px;
+    padding: 7px;
+    background-color: rgb(235, 233, 233);
+    border: none;
+}
+
+#input_currency {
+    padding: 30px;
+}
+
+#input_currency::placeholder {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+#convert {
+    display: block;
+    margin: auto;
+    background-color: rgb(186, 226, 242);
+}
+
+#convert:hover {
+    background-color: rgb(165, 203, 217);
+    transition: 0.3s ease;
+}
+
+#example {
+    font-weight: 200;
+    display: block;
+    text-align: center;
+    color: #898888;
+}

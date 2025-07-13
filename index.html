@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="company">
+            <img src="https://cdn-icons-png.flaticon.com/128/10044/10044783.png" alt="Not Found" height="30px"
+                width="30px">
+            <h3 class="company-name">Currency Exchange</h3>
+        </div>
+        <div class="options">
+            <ul class="options-list">
+                <li class="list-item"><a href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
+                <li class="list-item"><a href="#" target="_blank" rel="noopener noreferrer">Rates</a></li>
+                <li class="list-item"><a href="#" target="_blank" rel="noopener noreferrer">Charts</a></li>
+                <li class="list-item"><a href="#" target="_blank" rel="noopener noreferrer">News</a></li>
+            </ul>
+            <div class="buttons">
+                <button type="button" id="signup">Sign Up</button>
+                <button type="button" id="login">Log in</button>
+            </div>
+        </div>
+    </nav>
+    <div class="frame">
+        <img src="./Slice 1.png" alt="Not Found">
+    </div>
+
+    <div class="heading ">
+        <h2>
+            Convert Currencies
+        </h2>
+    </div>
+    <div class="currency-details">
+        <div>
+            <label for="source_currency">Source Currency</label><br>
+            <div>
+                <input type="text" name="" id="source_currency">
+            </div>
+        </div>
+        <br>
+        <div>
+            <input type="number" name="" id="input_currency" placeholder="Amount">
+        </div><br>
+        <div>
+            <label for="target_currency">Target Currency</label><br>
+            <div>
+                <input type="text" name="" id="target_currency">
+            </div>
+
+        </div><br>
+
+        <div class="buttons">
+            <button type="button" id="convert">Convert</button>
+        </div>
+    </div>
+    <p id="example">
+        1 Rupee = 0.011 Euro
+    </p>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
