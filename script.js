@@ -20,6 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const convertedAmount = (amount * rate).toFixed(2);
 
             result.innerText = `${amount} ${SourceCurrency} = ${convertedAmount} ${targetCurrency}`
+            result.style.display = "block"
             document.getElementById("source_currency").value = ''
             document.getElementById("input_currency").value = ''
             document.getElementById("target_currency").value = ''
@@ -27,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         } else {
             result.innerText = "Error At Data Fetching"
+            result.style.display = "block"
             document.getElementById("source_currency").value = ''
             document.getElementById("input_currency").value = ''
             document.getElementById("target_currency").value = ''
