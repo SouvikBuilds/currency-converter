@@ -20,10 +20,16 @@ document.addEventListener("DOMContentLoaded", function () {
             const convertedAmount = (amount * rate).toFixed(2);
 
             result.innerText = `${amount} ${SourceCurrency} = ${convertedAmount} ${targetCurrency}`
+            document.getElementById("source_currency").value = ''
+            document.getElementById("input_currency").value = ''
+            document.getElementById("target_currency").value = ''
 
 
         } else {
             result.innerText = "Error At Data Fetching"
+            document.getElementById("source_currency").value = ''
+            document.getElementById("input_currency").value = ''
+            document.getElementById("target_currency").value = ''
         }
     }
 
